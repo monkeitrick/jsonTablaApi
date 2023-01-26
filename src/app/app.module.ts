@@ -10,6 +10,7 @@ import { DatabaseTablaComponent } from './database-tabla/database-tabla.componen
 import {MatTableModule} from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';  
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { HttpClientModule } from '@angular/common/http';
   
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     BrowserAnimationsModule,
     MatCardModule,
     MatTableModule,
-    MatPaginatorModule 
+    MatPaginatorModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
